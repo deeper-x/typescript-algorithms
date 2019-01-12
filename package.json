@@ -1,0 +1,30 @@
+{
+  "name": "typescript-algorithms",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+	"start": "npm run build:live",
+	"build": "tsc -p .",
+	"build:live": "nodemon --watch 'src/**/*.ts' --exec 'ts-node' src/index.ts",
+      	"test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deeper-x/typescript-algorithms.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/deeper-x/typescript-algorithms/issues"
+  },
+  "homepage": "https://github.com/deeper-x/typescript-algorithms#readme",
+  "dependencies": {
+    "@types/node": "^10.12.18",
+    "nodemon": "^1.18.9",
+    "ts-node": "^7.0.1",
+    "tslint": "^5.12.1",
+    "typescript": "^3.2.2"
+  }
+}
